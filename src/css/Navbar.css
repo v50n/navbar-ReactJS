@@ -1,0 +1,57 @@
+
+.navHeader{
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 1rem;
+    justify-content: space-between;
+    font-size: 1.3rem;
+  }
+  
+  .icon-toogle{
+    border: none;
+    background-color: transparent;
+    font-size: 1.3rem;
+  }
+  
+  .icon-toogle:hover{
+    transform: rotate(90deg);
+  }
+  
+  .links{
+    height: 100%;
+    list-style-type: none;
+    text-align: left;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+  }
+  li{
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    font-size: 1.1rem;
+    width: 100%;
+  }
+  li a{
+    width: 100%;
+    color: rgb(74, 72, 72);
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  li:hover{
+    background-color: #A5D5F8;
+    padding-left: 2rem;
+    transition: all 0.5s linear;
+    font-size: 1.3rem;
+  }
+li a:hover{
+  color: hsl(205, 78%, 60%)
+}
+  .links-container{
+    background-color: white;
+    height: 0;
+    transition: all 1s linear;
+    overflow: hidden;
+  }
+  .links-container-toogle{
+    height: 9.1rem;
+  }
